@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.edmt.UAS_PPB">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityMenu" />
+        <activity android:name=".MenuSatu" />
+        <activity android:name=".MenuDua" />
+        <activity
+            android:name=".MenuTiga"
+            android:label="@string/title_activity_menu_tiga"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InstalJdk"
+            android:label="@string/title_activity_instal_jdk"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InstalAndroid"
+            android:label="@string/title_activity_instal_android"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProgPertama"
+            android:label="@string/title_activity_prog_pertama"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KonfigurasiSdk"
+            android:label="@string/title_activity_konfigurasi_sdk"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KonfigurasiAvd"
+            android:label="@string/title_activity_konfigurasi_avd"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RunProjek"
+            android:label="@string/title_activity_run_projek"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AreaKerja"
+            android:label="@string/title_activity_area_kerja"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProjectExplore"
+            android:label="@string/title_activity_project_explore"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UserInterface"
+            android:label="@string/title_activity_user_interface"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PembuatLayout"
+            android:label="@string/title_activity_pembuat_layout"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Multimedia"
+            android:label="@string/title_activity_multimedia"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Info" />
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

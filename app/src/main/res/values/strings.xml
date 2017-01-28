@@ -1,0 +1,433 @@
+<resources>
+    <string name="app_name">UAS_PPB</string>
+    <string name="petunjuk_penggunaan">Petunjuk Penggunaan</string>
+    <string name="dasar_dasar_pemrograman_android">DASAR-DASAR PEMROGRAMAN ANDROID</string>
+    <string name="petunjuk">Info</string>
+
+    <string name="title_activity_menu_tiga">Pembuatan Activity Baru</string>
+    <string name="menu3_text">
+        "Pembuatan Activity Baru.\n\n"
+
+        "Penjelasan \n\n "
+        "Activity adalah komponen pada aplikasi android yang menampilkan dan mengatur halaman aplikasi "
+	"Sebagai tempat interaksi antara pengguna dengan aplikasi. Activity merupakan sebuah class yang "
+	"menghandle sebuah halaman user interface pada aplikasi android, Sehingga jika sebuah aplikasi "
+	"memiliki beberapa halaman interface yang saling berinteraksi maka aplikasi tersebut juga memiliki "
+	"beberapa activity yang saling berinteraksi pula. Pembuatan project yang menginginkan penambahan "
+	"activity baru haruslah pada project yang menggunakan minimum SDK API 7. berikut langkah-langkahnya.\n\n "
+
+        "Langkah - Langkahnya :\n\n"
+
+        "1. Buatlah project baru dengan menggunakan minimum SDK API 7.\n\n "
+
+	"2. klik kanan file layout yang berada dalam folder Res > New > Activity > Blank Activity.\n\n "
+
+	"3. Ubahlah nama activity sesuai dengan keinginan misalnya SecondActivity dan Klik Finish. \n\n "
+
+	"4. Blank Activity denga nama second Activity telah dibuat secara otomatis file xml akan terbuat "
+	"juga dengan nama activity_second.xml.\n\n "
+
+	"5. Selanjutnya menghubungkan antara file activity yang telah dibuat dengan file .xml buka file "
+	"pada folder app/manidests/AndroidManifests.xml dan ubahlah seperti berikut dengan menambahkan "
+	"coding.\n"
+	"Dengan Catatan koding (action andorid:name-"com.example.phio.newactivity.SecondActivity\) Harus "
+	"disamakan dengan coding yang ada di file .xml yang akan dihubungkan.\n\n"
+
+	"6. Kemudian pada file activity_main.xml akan ditambahkan button yang berfungsi untuk membuka "
+	"second activity.\n\n "
+
+	"7. kemudian buka file MAinActivity dan tambahkan codingnya.\n\n "
+
+	"8. Setelah itu run aplikasi dan klik button pada aplikasi.\n\n"
+
+	"9. Setelah menekan tombol maka Secon Activity akan terbuka.\n\n"
+    </string>
+
+    <string name="title_activity_activity_petunjuk">Info</string>
+    <string name="petunjuk_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+    </string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_instal_jdk">INSTAL JDK</string>
+    <string name="jdk_text">
+       "Instal JDK.\n\n"
+
+        "Penjelasan \n "
+        "JDK adlah perangkat lunak yang digunakan untuk melakukan proses komplikasi dari kode java "
+	"ke bytecode yang dapat dimengerti dan dapat dijalankan oleh Android Studio. JDK wajib "
+	"terinstal pada komputer yang akan melakukan proses pembuatan aplikasi berbasis android.\n\n "
+
+        "Langkah - Langkahnya :\n\n"
+
+        "1. Buka dan double klik file JDK yang akan diisntal (bila JDKnya sudah ada, harap cek apa "
+	"sudah terupdate apa belum JDKnya) dan bila belum memiliki filenya, dapat di download di : "
+        "http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downoads-2133151.html.\n\n "
+
+	"2. pada Java SE Development kit - setup, klik tombol Next \n\n "
+
+	"3. Setelah di klik Next maka akan muncul Java SE Development kit - Custom Setup, yaitu "
+	"untuk memilih tempat extract file JDK yang akan diinstal, lalu klik Next \n\n "
+
+	"4. Setelah itu tunggu sampai proses extra berjalan.\n\n "
+
+	"5. Kemudian akan muncul tampilan java setup Destination Folder untuk Memilih tempat Penginstalan "
+	"JDK, jika ingin menggantu destinasinya maka klik Change atau jika ingin langsung melanjutkan "
+        "maka Klik next.\n\n "
+
+	"6. Maka akan muncul tampilan proses instalasi JDK.\n\n "
+
+	"7. Setelah prosesnya selesai maka akan muncul tampilan java SE Development Kit - Complete, "
+	"klik close untuk mengakhiri proses instalan JDKnya. \n "
+    </string>
+
+    <string name="title_activity_instal_android">Instal Android Studio</string>
+    <string name="android_text">
+        "Instal Android Studio.\n\n"
+
+        "Penjelasan \n "
+        "Android studio adalah sebuah IDE untuk pengembangan aplikasi di platform android. Android "
+	"studio menyediakan alat pengembang android terintegrasi untuk pengembangan dan debbuging.\n\n "
+
+        "Langkah - Langkahnya :\n\n"
+
+        "1. Langkah Pertama adalah buka atau double klik file android studio yang akan diinstal. jika "
+	"belum memiliki filenya, dapat di download di : http:\\developer.android.com/sdk/index.html.\n\n "
+
+	"2. Pada Android Studio (Welcome to Android Studio Setup), klik tombol Next \n\n "
+
+	"3. Pada tampilan (Chosee Components) pilih komponen yang ingin diistal, lalu klik Next \n\n "
+
+	"4. Pada tampilan (License Agreement) silahkan klik I Agree untuk menyetujui proses penginstalan.\n\n "
+
+	"5. Pada tampilan (Configuration Setting) tentukan lokasi pengistalan android studio dan lokasi "
+	"SDK yang diinginkan dan klik Next.\n\n "
+
+	"6. Pada Tampilan (Choose Start Menu Folder), klik saja tombol Next.\n\n "
+
+	"7. Maka Kemudian proses pengistalan Android Studio akan berjalan. tunggu sampai penginstalan "
+	"selesai.\n\n "
+
+	"8. Setelah selesai maka akan muncul tampilan (Instalasion Complete), lalu klik tombol Next.\n\n "
+
+	"9. Dan Akn muncul tampilan (Completing Android Studio Setup), yang menandakan proses instalasi "
+	"selesai. jika ingin langsung membuka program Android Studio maka check pilihan Start Android "
+	"studio dan klik Finish.\n\n "
+
+	"10. Maka pertama akan Muncul tampilan Complete Instalasi untuj pertama kali bukan untuk meminta "
+	"settingan dari Android Studio. jika sudah memiliki settingan maka pilih pilihan I want to import "
+	"my setting.. dan jika tidak memiliki settingan maka pilihlah i do not have a previous version of "
+	"studio. lalu klik OK.\n\n "
+
+	"11. Selanjutnya Setelah mengklik OK Android Studio Akan Loding.\n\n "
+
+	"12. Setelah itu akan muncul tampilan (Select UI Theme) dalam Android setup Wizard. pilih theme yang "
+	"diinginkan dan klik Next.\n\n "
+
+	"13. Pada Tampilan (Downloading Components) untuk mendownload SDK, Jika sudah selesai maka Klik  "
+	"Finish.\n\n "
+
+	"11. Maka Android Studio Sudah Siap Untuk digunakan.\n\n "
+    </string>
+
+    <string name="title_activity_prog_pertama">Pembuatan Program Pertama</string>
+    <string name="progpertama_text">
+        "Pembuatan Program Pertama.\n\n"
+
+        "Langkah - Langkahnya :\n\n"
+
+        "1. Saat pertama kali Android Studio dibuka maka tampilannya yaitu (Welcome to Android Studio) "
+	"dam pilih atau klik Start a new Android Studio Project.\n\n "
+
+	"2. Pada tampilan Create new project - (New Project) isikan Aplikasi name misalnya program pertama "
+	"dan company domain lalu klik Next.\n\n "
+
+	"3. pada tampilan (Target Android Device) isilah minimum SDK misalnya API 14:Android 4.0 (IceCream"
+	"Sandwich) lalu klik next.\n\n "
+
+	"4. pada tampilan (Add an Actifity to mobile) untuk penambahan Activity pada Project.pilih Blank "
+	"Actifity lalu klik Next.\n\n "
+
+	"5. pada tampilan (Customize the Activity) untuk penamaan activity yang telah dibuat sebelumnya. "
+	"Isikan semua identitas activitylalu klik Finish.\n\n "
+
+	"6. Maka akan muncul tampilan untuk proses pembuatan project ProgramPertama.\n\n "
+
+	"7. Setelah selesai maka proses pembuatan project program pertama sudah selesai.\n\n "
+
+	"8. jika ingin mengatur layout pada tampilan projec maka buka file activity_main.xml pada folder "
+	"layout. dan untuk mengubah koding java pada file class mainactivity di folder java/comexample.\n\n "
+    </string>
+
+
+    <string name="title_activity_konfigurasi_sdk">Konfigurasi Sdk</string>
+    <string name="sdk_text">
+    "Konfigurasi SDK.\n\n"
+
+    "Penjelasan \n "
+    "Android SDK (Software Development Kit) adlah tools bantu API untuk mengembangkan Berbagai "
+	"Aplikasi platform android dengan bahasa pemrograman java. konfigurasinya haruslah terhubung "
+	"ke internet karena file konfigurasinya haruslah di download dari internate. File konfigurasi "
+	"yang harus diinstal berupa android API (Application Programming Interfaces) yang merupakan "
+	"library, file dokumentasi dan termasuk didalamnya emulator yang dapat digunkan untuk membuat "
+	"aplikasi untuk versi android tertentu.\n\n "
+
+    "Langkah - Langkahnya :\n\n"
+
+    "1. Setelah pembuatan project pertama selesai, untuk menkonfigurasi SDK maka Klik icon SDK "
+	"Manager pada toolbox.\n\n "
+
+	"2. pada tampilan Android SDK manager pilih jenis API yang akan diinstal ke Android SDK Manager "
+	"dan klik Install Packages.\n\n "
+
+	"3. Sesudah itu Proses downloading sedang berjalan dan dilanjutjan dengan pengintalan pake yang "
+	"telah dipilih. \n\n "
+
+	"4. Setelah selesai maka pada field status akan berubah dari Not installed ke installed.\n\n "
+    </string>
+
+
+    <string name="title_activity_konfigurasi_avd">Konfigurasi Avd</string>
+    <string name="avd_text">
+    "Konfigurasi AVD.\n\n"
+
+    "Penjelasan \n "
+    "Android Virtual Device (AVD) merupakan emulator perangkat android yang digunakan untuk melihat "
+	"hasil running dari project yang telah dibuat.\n\n "
+
+    "Langkah - Langkahnya :\n\n"
+
+    "1. klik icon ADT Manger pada toolbox.\n\n "
+
+	"2. pada tampilan Android Virtual Device Manager (Your Virtual Devices) klik Create a virtual "
+	"device.\n\n "
+
+	"3. pada tampilan Android Virtual Device Manager (Select Hardware) pilih Hardware yang diinginkan "
+	"misalnya Galaxy Nexus dan klik Next.\n\n "
+
+	"4. pada tampilan Android Virtual Device Manager (System Image) untuk memilih jenis Android atau "
+	"jenis API yang telah terinstall di SDK dan klik Next.\n\n "
+
+	"5. pada tampilan Android Virtual Device Manager (Android Virtual Device (AVD)) isikan name AVD "
+	"yang diinginkan dan klik Finish.\n\n "
+
+	"6. Android Virtual Device sudah terbuat, untuk menjalankan AVD tersebut pada kolom actions klik "
+	"icon Play.\n\n "
+
+	"7. Andorid Virtual Device akan loading unuk membuka AVD tersebut.\n\n "
+
+	"8. Setelah itu Android Virtual Device siap untuk digunakan.\n\n "
+    </string>
+
+    <string name="title_activity_run_projek">Running Project</string>
+    <string name="run_text">
+
+    "Running Project.\n\n"
+
+    "Secara default, Android Studio menyiapkan proyek baru untuk diluncurkan ke Emulator atau "
+    "perangkat fisik hanya dengan beberapa klik. Dengan Instant Run, Anda bisa mendorong "
+    "perubahan ke metode dan sumber daya aplikasi yang sudah ada ke aplikasi yang berjalan "
+    "tanpa membuat APK baru, sehingga perubahan kode terlihat hampir seketika.\n\n "
+
+    "Untuk membuat dan menjalankan aplikasi Anda, klik Run . Android Studio membuat aplikasi Anda dengan "
+    "Gradle, meminta Anda untuk memilih target penerapan (emulator atau perangkat yang terhubung),"
+    "dan kemudian menerapkan aplikasi Anda ke sana. Anda bisa menyesuaikan beberapa perilaku"
+    "default ini, seperti memilih target penerapan otomatis, dengan mengubah konfigurasi jalankan. \n\n"
+
+    "Jika Anda ingin menggunakan Android Emulator untuk menjalankan aplikasi, Anda harus memiliki"
+    "Android Virtual Device (AVD). Jika Anda belum membuatnya, maka setelah Anda mengeklik Run,"
+    "klik Create New Emulator pada dialog Select Deployment Target. Ikuti wizard Virtual Device "
+    "Configuration untuk menentukan jenis perangkat yang ingin disimulasikan. Untuk informasi "
+    "selengkapnya, lihat Membuat dan Mengelola Perangkat Virtual. \n\n"
+
+    "Jika Anda menggunakan perangkat Android fisik, Anda harus mengaktifkan debug USB pada"
+    "perangkat. Untuk informasi selengkapnya, lihat Menjalankan Aplikasi di Perangkat Keras.\n\n"
+
+    "Catatan: Anda juga bisa menerapkan aplikasi dalam mode debug dengan mengeklik Debug."
+    "Menjalankan aplikasi dalam mode debug memungkinkan Anda untuk mengatur titik putus dalam"
+    "kode, memeriksa variabel dan mengevaluasi ekspresi saat dijalankan, dan menjalankan alat"
+    "debug.Untuk mengetahui selengkapnya, lihat Debug Aplikasi Anda. \n\n"
+
+    "Langkah - Langkahnya :\n\n"
+    "1. klikicon Play pada Toolbox atau klik (Shift+F10).\n\n "
+
+	"2. Pada tampilan Choose Device Android Studio akan mendeteksi semua emulator yang sedang online "
+	"dan dapat digunakan, maka pilih emulator yang diinginkan dan klik OK.\n\n "
+
+	"3. Lalu project akan berjalan pada emulator yang telah dipilih sebelumnya.\n\n "
+    </string>
+
+
+    <string name="title_activity_area_kerja">Pengenalan Area Kerja</string>
+    <string name="area_text">
+        "Pengenalan Area Kerja.\n\n"
+
+    "Aplikasi :\n\n"
+
+    "1. Menu Bar > Menu bar adalah baris yang memuat sekumpulan menu berupa tulisan.\n "
+	"2. Toolbar > barisan yang memuat sekumpulan icon berisi perintah-perintah yang dapat "
+	"dikerjakan pada android studio, biasnaya terletak dibawah Menu Bar.\n "
+	"3. Project Explorer > berisi semua file yang terdapat pada project.\n "
+	"4. Area KErja > tempat mengedit layout project atau mengcoding project yang sedang "
+	"dikerjakan.\n\n "
+
+	"Area Kerja :\n\n"
+
+	"1. Palette > Berisi semua widget yang dapat digunakan pda aplikasi android.\n "
+	"2. Area Kerja > tempat mengedit layout project.\n "
+	"3. Component Tree > berisi semua file widget yang terdapat pada project yang disusun "
+	"rapi seperti pohon.\n "
+	"4. Properties > Tempat mengedit bagian-bagian widget seperti yang diinginkan.\n "
+    </string>
+
+
+    <string name="title_activity_project_explore">Contoh Project Explore</string>
+    <string name="explore_text">
+        "Pengenalan File Project Explorer.\n\n"
+
+    "* manifest folder /nBerisi file AndroidMAnifest.xml merupakan file yang berfungsi untuk "
+    "menggambarkan karakteristik mendasar dari aplikasi dan mendefinisikan masing-masing "
+    "komponen aplikasi.\n\n"
+
+    "Di dalamnya terdapat source code element-element untuk mendeklarasikan fitur-fitur tertentu "
+    "di dalam aplikasi.\n\n"
+
+    "/n* java/ folder/njava folder memiliki fungsi sebagai tempat utama yag di dalamnya terdapat "
+    "file-file Activity bertipe java Programming.\n\n"
+
+    "file Activity ini terdiri dari beberapa Class yang menjadi logic dasar pemrograman aplikasi "
+    "Android.\n\n"
+
+    "/n* res/ folder /nBerisi berbagai resource atau sumber-sumber untuk aplikasi seperti icon, "
+    "splash screen, maupun String-String pendukung aplikasi.\n\n"
+    "Di dalam folder ini terdiri dari beberpaa subdirektori diantaranya /n* /drawable folder yang "
+    "berisi file gambar, /n* layout folder berisi file main.xml untuk mengatur tata letak dan "
+    "tampilan utama aplikasi Android /n* /values folder yang berisi string teks utama Aplikasi.\n\n"
+    "Untuk mengedit layout dapat diubah pada file.xml pada folder layout, dan untuk mengubah koding "
+    "java pada file class pada folder java/com..\n\n"
+    </string>
+
+    <string name="title_activity_user_interface">Pengenalan User Interface</string>
+    <string name="user_text">
+    "Pengenalan User Interfaces.\n\n"
+
+	"Penjelasan :\n\n"
+    "Widget adalah sebuah toolbar yang digunakan sebagai antarmuka user dalam sebuah aplikasi "
+    "Android atau dengan kata lain sebagai alat yang dinamakan pada aplikasi android agar dapat "
+    "difungsikan sesuai tujuan aplikasi tersebut.\n\n"
+
+    "Widget ini terdapat pada tool palette. Contoh wideg adlah text view, button, check list, "
+    "radio button, dll.\n"
+    "cara editing yang umum digunakan pada saat pembuatan project aplikasi android adalah mengedit "
+    "widget pada layout aplikasi dipadukan dengan pengeditan pada panel properties dan mengedit "
+    "widget melalui source code pada file layout yang biasanya berektensi .xml, tetapi yang akan "
+    "digunakan adalah pengeditan pada source code.\n\n"
+
+	"TextView :\n\n"
+    "Textview adalh sebuah widget yang digunakan sebagai label yang merupakan petunjuk bagi user.\n\n"
+	
+	"Button :\n\n"
+    "Button adlah sebuah widget yang digunakan sebagai tombol alat untuk mengeksekusi perintah yang "
+    "terdapat pada aplikasi.\n\n"
+
+	"CheckBox :\n\n"
+    "CheckBox adalah sebuah widget yang digunakan sebagai list pilihan yang diinginkan tetapi "
+    "penggunaan radiobutton dalam 1 grupnya dapat memilih lebih dari 1 pilihan.\n\n"
+    "RadioButton :\n\n"
+    "RadioButton adalah sebuah widget yang memiliki kegunaan yang sama dengan checkbox akan tetapi "
+    "penggunaan radiobutton dalam 1 grupnya hanya dapat memilih 1 pilihan saja.\n\n
+    ProgressBar :\n\n"
+    "ProgressBar adalah sebuah widget yang banyak ditemukan pada aplikasi dekstop dan game yang "
+    "membutuhkan progress loading dengan tujuan memberikan timer pada aplikasi untuk melakukan "
+    "proses.\n\n"
+	"Rating :\n\n"
+    "Rating adalah sebuah widget yang digunakan untuk menilai suatu proses.\n\n"
+	"PlainText \n\n"
+    "PlainText adalah sebuah widget yang digunakan untuk menginput string atau number yang akan "
+   "diproses.\n\n"
+	"TableLayout :\n\n"
+    "TableLayout adalah sebuah widget yang digunakan untuk memberi layout dalam bntuk tabel agar "
+    "lebih memudahkan dalam mengatur layout project.\n\n"
+    </string>
+
+
+    <string name="title_activity_pembuat_layout">Contoh Pembuatan Layout</string>
+    <string name="layout_text">
+       "Contoh Pembuatan Layout.\n\n"
+
+	"Penjelasan \n\n"
+	    "Proses pembuatan atau pengeditan layout dapat dilakukan dengan coding dan pengeditan langsung "
+        "ke layout dengan cara drag dan drop ke layout.\n\n"
+
+	"Langkah - Langkahnya \n\n"
+
+	"1. Klik dan drag TableLayout dari Layout di Palette. Maka TableLayout dapat dimasukan ke layout.\n\n"
+	"2. Maka Akan terlihat TableLayout sudah ada pada layout.\n\n"
+	"3. Bisa juga dimasukkan tablerow ke dalam table layout untuk membuat baris pada table.\n\n"
+	"4. Kemudian drag object lain yang dibutuhkan dan dimasukan kesetiap table row.\n\n
+    </string>
+
+    <string name="title_activity_multimedia">Penanganan Multimedia</string>
+    <string name="multimedia_text">
+        "Menampilkan Gambar.\n\n"
+
+        "Langkah - Langkahnya :\n\n"
+
+        "1. Cari file gambar windows wxplorer kemudian copy gambar tersebut dengan cara klik kanan > copy, "
+	"atau klik Ctrl+C.\n\n "
+
+	"2. Paste ke folder /res/drawable dengan cara klik kanan folder drawabel dan klik paste, atau klik "
+	" folder drawable langsung klik ctrl+v.\n\n "
+
+	"3. Pada tampilan copy klik OK.\n\n "
+
+	"4. Kemudian untuk file /res/layout/activity_main.xml tambahkan kode berikut untuk mengatur layout "
+	"interfacesnya.\n\n "
+
+	"5. Bisa juga dengan mengedit file activitynya dengan menambahkan koding.\n\n"
+
+	"6. Setelah itu run projectnya maka gambar akan muncul di layout. \n\n"
+    </string>
+
+
+</resources>
